@@ -42,6 +42,3 @@ function draw() {
   fill('#F2C12E');
   rect(200 + wave * 5, 300, 200, 100 + wave * 5);
 }
-function mousePressed() {
-  saveGif('mondrian_wave.gif', 3);
-}
